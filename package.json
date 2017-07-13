@@ -1,0 +1,22 @@
+{
+  "name": "atom-react-native",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "React Native style autocomplete",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/atom-react-native",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+  }
+}
