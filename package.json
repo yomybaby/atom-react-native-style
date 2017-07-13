@@ -18,5 +18,10 @@
     }
   },
   "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "react-docgen": "^2.16.0",
+    "react-native": "^0.46.2"
   }
 }
