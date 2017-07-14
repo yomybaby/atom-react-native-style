@@ -1,11 +1,11 @@
 {
-  "name": "atom-react-native",
+  "name": "atom-yo-react-native",
   "main": "./lib/main",
   "version": "0.0.1",
-  "description": "React Native style autocomplete",
+  "description": "React Native autocomplete provider",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/atom-react-native",
+  "repository": "https://github.com/yomybaby/atom-yo-react-native",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -23,5 +23,8 @@
   "devDependencies": {
     "react-docgen": "^2.16.0",
     "react-native": "^0.46.2"
+  },
+  "scripts":{
+    "completion": "node scripts/completiongen.js"
   }
 }

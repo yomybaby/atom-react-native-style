@@ -30,7 +30,12 @@ _.each(stylesWithPermalink,function (filepath) {
       docgen.handlers.propDocBlockHandler,
     ]
   );
-  _.extend(props,styleInfo.props)
+  let className = path.parse(filepath).name
+  _.each(styleInfo.props, (propInfo, propName) => {
+    styleInfo.props[propName].className = className;
+  })
+  
+  _.extend(props, styleInfo.props);
 })
 
 fs.writeFile(path.resolve(__dirname,'../completions/style.json'), JSON.stringify(props,null,2), function(err) {
