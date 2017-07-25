@@ -1451,7 +1451,7 @@
       "name": "enum",
       "value": [
         {
-          "value": "\"normal\"",
+          "value": "'normal'",
           "computed": false
         },
         {
@@ -1589,7 +1589,7 @@
       "name": "enum",
       "value": [
         {
-          "value": "\"auto\"",
+          "value": "'auto'",
           "computed": false
         },
         {
@@ -1619,7 +1619,7 @@
       "name": "enum",
       "value": [
         {
-          "value": "\"auto\"",
+          "value": "'auto'",
           "computed": false
         },
         {
@@ -1653,7 +1653,7 @@
       "name": "enum",
       "value": [
         {
-          "value": "\"none\"",
+          "value": "'none'",
           "computed": false
         },
         {
@@ -1679,7 +1679,7 @@
       "name": "enum",
       "value": [
         {
-          "value": "\"solid\"",
+          "value": "'solid'",
           "computed": false
         },
         {
@@ -1714,7 +1714,7 @@
       "name": "enum",
       "value": [
         {
-          "value": "\"auto\"",
+          "value": "'auto'",
           "computed": false
         },
         {

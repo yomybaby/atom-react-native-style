@@ -33,6 +33,14 @@ _.each(stylesWithPermalink,function (filepath) {
   let className = path.parse(filepath).name
   _.each(styleInfo.props, (propInfo, propName) => {
     styleInfo.props[propName].className = className;
+    
+    // some of enum values has doble quotation. replace with single quotation;
+    if(styleInfo.props[propName].type.name === 'enum' && _.isArray(styleInfo.props[propName].type.value)){
+      let values = styleInfo.props[propName].type.value
+      _.each(values, (v,i) => {
+        values[i].value = v.value.replace(/"/g,'\'');
+      });
+    }
   })
   
   _.extend(props, styleInfo.props);
