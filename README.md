@@ -2,6 +2,10 @@
 
 This Atom package is for helping to write react-native StyleSheet
 
+```
+apm install atom-react-native-style
+```
+
 ## Features
 - completion for key/value of style
 
