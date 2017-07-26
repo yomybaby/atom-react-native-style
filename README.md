@@ -1,5 +1,11 @@
-# atom-react-native package
+# atom-react-native-style
 
-A short description of your package.
+This Atom package is for helping to write react-native StyleSheet
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Features
+- completion for key/value of style
+![capture](https://github.com/yomybaby/atom-react-native-style/releases/download/0.0/auto.gif)
+
+## TODO
+- hyperclick provider for move to style definition
+  - If not exists, generate one.
