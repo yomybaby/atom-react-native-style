@@ -48,6 +48,8 @@ class Selector
       if end?
         return {start: start,end:end};
         # selection.setBufferRange([start, end])
+    else
+      return {start:null, end:null}
         
   @select: (event, type, args...) ->
     editor = event.target.getModel?()
