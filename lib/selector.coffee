@@ -5,7 +5,7 @@ _ = require 'lodash'
 
 module.exports =
 class Selector
-  
+  # 'getInsideBrackets' is a additional method for atom-react-native-style
   @getInsideBrackets = (request, beginChar, endChar, includeBrackets) ->
     {bufferPosition, editor} = request;
     findOpeningBracket = (pos) ->
