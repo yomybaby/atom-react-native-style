@@ -1,7 +1,7 @@
 {
   "name": "atom-react-native-style",
   "main": "./lib/main",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "This Atom package is for helping to write react-native StyleSheet",
   "keywords": [
     "react-native",
